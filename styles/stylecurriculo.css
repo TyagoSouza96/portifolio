@@ -125,7 +125,7 @@ body {
     color: var(--cor-primaria);
 }
 
-@media screen and (max-width: 428px) {
+@media screen and (max-width: 480px) {
     .Imagem {
         display: none;
     }

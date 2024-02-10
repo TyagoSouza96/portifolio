@@ -125,14 +125,13 @@ body {
     color: var(--cor-primaria);
 }
 
-@media (max-width: 428px) {
+@media (max-width: 480px) {
     .cabecalho {
         padding: 1em;
     }
 
     .cabecalho__menu {
         margin: 1em;
-        
     }
     
     .apresentacao {
@@ -144,6 +143,7 @@ body {
 
     .apresentacao__conteudo {
        width: 82%;
+       text-align: center;
     }
 
     .apresentacao__conteudo__texto {
