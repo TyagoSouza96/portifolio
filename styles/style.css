@@ -125,25 +125,37 @@ body {
     color: var(--cor-primaria);
 }
 
-@media (max-width: 1200px) {
+@media (max-width: 428px) {
     .cabecalho {
-        padding: 10%;
+        padding: 1em;
     }
 
     .cabecalho__menu {
-        justify-content: center;
+        margin: 1em;
+        
     }
     
     .apresentacao {
+        display: flex;
         flex-direction: column-reverse;
-        padding: 5%;
+        padding: 0;
+        gap: 20px;
     }
 
     .apresentacao__conteudo {
-        width: auto;
+       width: 82%;
     }
 
-    .imagem {
-        width: 50%;
+    .apresentacao__conteudo__texto {
+        margin: 0;
+    }
+    
+    .Imagem {
+       width: 80%;
+    }
+
+    .rodape {
+        margin-top: 1em;
+        padding: 0.5em;
     }
 }

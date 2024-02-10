@@ -124,3 +124,29 @@ body {
     padding: 10px;
     color: var(--cor-primaria);
 }
+
+@media screen and (max-width: 428px) {
+    .Imagem {
+        display: none;
+    }
+
+    .cabecalho {
+        padding: 1em;
+    }
+
+    .cabecalho__menu {
+        padding: 1em;
+    }
+    
+    .apresentacao {
+        text-align: center;
+    }
+
+    .apresentacao__conteudo {
+        gap: 1em;
+    }
+
+    .rodape {
+        margin-top: 1em;
+    }
+}

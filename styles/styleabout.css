@@ -80,10 +80,6 @@ body {
     padding: 3%;
 }
 
-.imagem {
-    width: 50%;
-}
-
 .rodape {
     background-color: #22D4FD;
     text-align: center;
@@ -106,4 +102,30 @@ body {
     display: flex;
     padding: 5em;
     margin: 2em;
+}
+
+@media screen and (max-width: 428px) {
+    .cabecalho {
+        padding: 1em;
+    }
+
+    .cabecalho__menu {
+        padding: 1em;
+    }
+    
+    .Imagem {
+        width: 70%;
+        
+    }
+
+    .apresentacao__conteudo__about {
+        padding: 0.5em;
+    }
+
+    .about {
+        padding: 0;
+        display: flex;
+        flex-direction: column-reverse;
+        text-align: center;
+    }
 }
